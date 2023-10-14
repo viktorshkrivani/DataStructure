@@ -113,15 +113,15 @@ public class Pizza implements Comparable<Pizza> {
         //Pizza 1 = Pizza 2 toppings and crust return 0
         if (this.equals(otherPizza)) {
             return 0;
-            //Pizza 1 = Pizza 2 toppings, but Pizza 1 > Pizza 2 crust still returns -1
+            //Pizza 1 < Pizza 2 "lest toppings" than pizza Pizza 2 returns -1
+            //Pizza 1 crust smaller than Pizza 2 crust still return -1
+            //Pizza 2 crust bigger than Pizza 1 crust will return 1
         } else if (toppings.size() < otherPizza.toppings.size()) {
             return -1;
-            //Pizza 1 > Pizza 2 toppings
+            //Pizza 1 > Pizza 2 "more toppings" than Pizza 2 return 1
+            //Pizza 1 crust bigger than Pizza 2 crust return 1
         } else if (toppings.size() > otherPizza.toppings.size()) {
             return 1;
-            //Pizza 1 = Pizza 2 toppings but Pizza A > Pizza B crust returns 1
-            //} else if (this.crust.compareTo(otherPizza.crust) > 0) {
-            //  return 1;
         } else {
             // Compare the crusts but in reverse from the crust enum staring from Cheese as teh highest and ending with plain
             return Integer.compare(otherPizza.crust.ordinal(), this.crust.ordinal());
