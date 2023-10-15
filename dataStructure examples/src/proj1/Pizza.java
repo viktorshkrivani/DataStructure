@@ -23,7 +23,7 @@ public class Pizza implements Comparable<Pizza> {
     private SizeType size;
 
 
-    //Creating a Pizza starting with crust Plain,  a list of toppings, and a size.
+    //Creating a Pizza starting with crust Plain,  a list of toppings empty, and a size SMALL
     public Pizza() {
         this.crust = CrustType.PLAIN;
         this.toppings = new ArrayList<Toppings>();
