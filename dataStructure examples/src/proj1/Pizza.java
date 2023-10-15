@@ -24,10 +24,10 @@ public class Pizza implements Comparable<Pizza> {
 
 
     //Creating a Pizza starting with crust Plain,  a list of toppings, and a size.
-    public Pizza(CrustType crust, ArrayList<Toppings> toppings, SizeType size) {
+    public Pizza() {
         this.crust = CrustType.PLAIN;
-        this.toppings = toppings;
-        this.size = size;
+        this.toppings = new ArrayList<Toppings>();
+        this.size = SizeType.SMALL;
     }
 
     // Pizza(crust, toppings, size) Constructor, initialize the fields to the values passed in by the client
