@@ -23,7 +23,7 @@ public class Pizza implements Comparable<Pizza> {
     private SizeType size;
 
 
-    //Creating a Pizza starting with crust Plain,  a list of toppings empty, and a size SMALL
+    //Creating a Pizza starting with crust Plain,  a list of toppings, and a size.
     public Pizza() {
         this.crust = CrustType.PLAIN;
         this.toppings = new ArrayList<Toppings>();
@@ -124,7 +124,7 @@ public class Pizza implements Comparable<Pizza> {
             return 1;
         } else {
             // Compare the crusts but in reverse from the crust enum staring from Cheese as teh highest and ending with plain
-            return Integer.compare(otherPizza.crust.ordinal(), this.crust.ordinal());
+            return Integer.compare(this.crust.ordinal(), otherPizza.crust.ordinal());
         }
 
     }
