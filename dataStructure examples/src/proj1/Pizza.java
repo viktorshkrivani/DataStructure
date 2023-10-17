@@ -123,7 +123,7 @@ public class Pizza implements Comparable<Pizza> {
         } else if (toppings.size() > otherPizza.toppings.size()) {
             return 1;
         } else {
-            // Compare the crusts but in reverse from the crust enum staring from Cheese as teh highest and ending with plain
+            // Compare the crusts enum staring from Plain as the  ordinal (0)
             return Integer.compare(this.crust.ordinal(), otherPizza.crust.ordinal());
         }
 
