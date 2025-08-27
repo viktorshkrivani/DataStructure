@@ -23,6 +23,6 @@ Sample execution results can be found here:
 
 ## Code Location
 
-[Node.java](./src/proj2/Node.java)
+[Node.java](./proj2VSH/proj2/src/proj2/Node.java)
 
 [Polynomials.java](./src/proj2/Polynomials.java)
