@@ -25,4 +25,4 @@ Sample execution results can be found here:
 
 [Node.java](./proj2VSH/proj2/src/proj2/Node.java)
 
-[Polynomials.java](./src/proj2/Polynomials.java)
+[Polynomials.java](./proj2VSH/proj2/src/proj2/Polynomials.java)
