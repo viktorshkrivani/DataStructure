@@ -15,7 +15,7 @@ Patients are read from an input file and assigned to queues based on their triag
 Input file: [`data.txt`](./proj4/src/proj4/data.txt)  
 
 ## Example output:  
-[Sample Images](./proj4VSH/example.png)
+[Sample Images](./proj4/PROJSCREEN1.pdf)
 
 ## Files
 - [`Main.java`](./proj4VSH/Main.java) — Entry point, loads data and runs simulation.  
