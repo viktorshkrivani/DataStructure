@@ -10,7 +10,7 @@ This repository contains 4 programming projects for CIS 2353 that explore core d
 - [Project 2 ➕ — Polynomial Linked List](./Project%202/proj2/README.md)  
   Implement a `Polynomial` class using a linked chain of nodes, supporting printing, deep copy, and polynomial addition with like-term combination.
 
-- [Project 3 📚 — ChangeStack (Custom Stack with Modifiers)](./Project%203/proj3/README.md)  
+- [Project 3 📚 — ChangeStack (Custom Stack with Modifiers)](./Project%203/README.md)  
   Create a stack-like structure with push/pop plus custom `increaseValues` and `decreaseValues` operations, throwing exceptions for empty stacks.
 
 - [Project 4 🏥 — Triage Simulator with Priority Queues](./Project%204/proj4/README.md)  
