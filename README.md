@@ -13,5 +13,5 @@ This repository contains 4 programming projects for CIS 2353 that explore core d
 - [Project 3 📚 — ChangeStack (Custom Stack with Modifiers)](./Project%203/README.md)  
   Create a stack-like structure with push/pop plus custom `increaseValues` and `decreaseValues` operations, throwing exceptions for empty stacks.
 
-- [Project 4 🏥 — Triage Simulator with Priority Queues](./Project%204/proj4/README.md)  
+- [Project 4 🏥 — Triage Simulator with Priority Queues](./Project%204/README.md)  
   Simulate a hospital triage system by parsing patients from file into three priority queues, always serving the most urgent cases first.
