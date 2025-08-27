@@ -18,10 +18,9 @@ Input file: [`data.txt`](./proj4/src/proj4/data.txt)
 [Sample Images](./proj4/PROJSCREEN1.pdf)
 
 ## Files
-- [`Main.java`](./proj4VSH/Main.java) — Entry point, loads data and runs simulation.  
-- [`Patient.java`](./proj4VSH/Patient.java) — Represents a patient with name and triage code.  
-- [`TriageSimulator.java`](./proj4VSH/TriageSimulator.java) — Implements the triage logic.  
-- [`data.txt`](./proj4VSH/data.txt) — Sample patient input file.  
+- [`Main.java`](./proj4/src/proj4/Main.java) — Entry point, loads data and runs simulation.  
+- [`Patient.java`](./proj4/src/proj4/Patient.java) — Represents a patient with name and triage code.  
+- [`TriageSimulator.java`](./proj4/src/proj4/TriageSimulator.java) — Implements the triage logic.  
 
 ## Code Location
-[proj4VSH](./proj4VSH)
+[proj4VSH](./proj4/src/proj4)
