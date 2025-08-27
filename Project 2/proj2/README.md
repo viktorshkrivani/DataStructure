@@ -20,7 +20,6 @@ Sample execution results can be found here:
 ## Files
 - `proj2/Node.java` — Defines polynomial nodes.  
 - `proj2/Polynomial.java` — Defines the polynomial operations.  
-- `proj2/PolynomialDemo.java` — Driver program for testing.
 
 ## Code Location
 
