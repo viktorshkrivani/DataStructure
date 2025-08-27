@@ -12,7 +12,7 @@ Patients are read from an input file and assigned to queues based on their triag
 - Patients with higher urgency are always treated before lower-priority ones.
 
 ## Sample Runs
-Input file: [`data.txt`](./proj4VSH/data.txt)  
+Input file: [`data.txt`](./proj4/src/proj4/data.txt)  
 
 ## Example output:  
 [Sample Images](./proj4VSH/example.png)
