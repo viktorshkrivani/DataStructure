@@ -23,4 +23,4 @@ Input file: [`data.txt`](./proj4/src/proj4/data.txt)
 - [`TriageSimulator.java`](./proj4/src/proj4/TriageSimulator.java) — Implements the triage logic.  
 
 ## Code Location
-[proj4VSH](./proj4/src/proj4)
+[Source code](./proj4/src/proj4)
