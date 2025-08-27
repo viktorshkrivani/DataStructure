@@ -4,7 +4,7 @@ This repository contains 4 programming projects for CIS 2353 that explore core d
 
 ## Table of Contents
 
-- [Project 1 🍕 — Pizza Class (Comparable & Enums)](./Project%201/README.md)  
+- [Project 1 🍕 — Pizza Class (Comparable & Enums)](./Project%201/)  
   Build a `Pizza` class with enums for crust and size, toppings stored in an ArrayList, and implement `toString`, `equals`, and `compareTo` for comparison.
 
 - [Project 2 ➕ — Polynomial Linked List](./Project%202/README.md)  
